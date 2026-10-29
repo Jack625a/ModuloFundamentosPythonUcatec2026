@@ -34,4 +34,7 @@ colores.pop()
 colores.pop(0)
 print(colores)
 
+#Longitud de una lista len()
+print(len(colores))
+
 
