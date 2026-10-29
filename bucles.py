@@ -42,9 +42,31 @@ for fila in range(1,8):
         print(columna,end=" ")
     print()
 
-
-
-
-
-
 #Bucles Condicionados while
+# while condicion:
+#   instruccion a realizar
+a=1
+while a<=100:
+    print(a)
+    a=a+1
+
+while True:
+    print("1. Sumar")
+    print("2. Restar")
+    print("3. Multiplicar")
+    print("4. Dividir")
+    print("5. Salir")
+    opcion=int(input("Seleccion la operacion a realizar: "))
+    if opcion==1:
+        print("Sumar")
+    elif opcion==2:
+        print("Restar")
+    elif opcion==3:
+        print("multiplicar")
+    elif opcion==4:
+        print("dividir")
+    elif opcion==5:
+        print("Gracias por utilizar el programa")
+        break
+    else: 
+        print("Operacion invalida")
