@@ -23,11 +23,23 @@ print(titulo)
 n1=input("Ingrese su nombre: ")
 print(n1)
 
-
-
 #2.Tipo de datos complejos
+#2.1. LISTAS [] 
+edades=[5,15,12,18,20,23,24]
+
+
+#2.2. TUPLAS ()
+id=(15445,8512,5000,3000)
+
+#2.3. DICCIONARIOS {}
+estudiante={
+    "nombre":"Kevin",
+    "carrera":"Ingenieria de Sistemas",
+    "celular":65402398
+}
 
 #Condicionales
+
 
 #Bucles
 
