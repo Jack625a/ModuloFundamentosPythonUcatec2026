@@ -20,8 +20,11 @@ titulo="Nombre: "+nombre
 print(calculos)
 print(titulo)
 #Lectura de datos (input(""))
+#Los input solo leen en string 
 n1=input("Ingrese su nombre: ")
 print(n1)
+#Para convertir el input en valores numericos (int, float)
+
 
 #2.Tipo de datos complejos
 #2.1. LISTAS [] 
