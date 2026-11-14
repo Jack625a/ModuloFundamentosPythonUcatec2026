@@ -44,6 +44,7 @@ nuevoDato=pd.DataFrame({
     "horaEstudio":[7,6,2,9,11],
     "asistencia":[85,55,30,25,10]
 })
+
 resultado=modelo.predict(nuevoDato)
 probabilidades=modelo.predict_proba(nuevoDato)
 print("Predicciones: ",resultado)
